@@ -4,9 +4,6 @@ import numpy as np
 import os
 import sys
 
-# Make the 'src' folder accessible for importing 'features.build_features'
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
-
 from features.build_features import add_features
 
 # -------- Fixtures --------
